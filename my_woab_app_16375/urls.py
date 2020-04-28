@@ -32,9 +32,9 @@ urlpatterns = [
     path("rest-auth/registration/", include("rest_auth.registration.urls")),
 ]
 
-admin.site.site_header = "My WOAB APP"
-admin.site.site_title = "My WOAB APP Admin Portal"
-admin.site.index_title = "My WOAB APP Admin"
+admin.site.site_header = "My WOAB Web"
+admin.site.site_title = "My WOAB Web Admin Portal"
+admin.site.index_title = "My WOAB Web Admin"
 
 # swagger
 schema_view = get_schema_view(
